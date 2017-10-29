@@ -1,0 +1,28 @@
+/*reset*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p,
+small, strong, sub, sup, var, b, i, dl, dt, dd, form, table, tr, th,
+td,ul
+{
+    margin:0;
+    padding:0;
+}
+body{background: #f6f6f6;font-family: "Microsoft YaHei", 微软雅黑}
+input,select,textarea{outline:none;border:none;background: none}
+li{list-style: none }
+textarea{resize:none}
+img{border:none}
+a{text-decoration: none}
+/*清浮动*/
+.clearfix:after{content:"";display:block;clear:both}
+.clearfix{zoom:1;}
+
+/*公共样式*/
+.comWidth{
+    width:1190px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
